@@ -7,4 +7,5 @@ display(f'Students in one of the clubs: {band | dance}', target='output')
 display(f'Students in both clubs: {band & dance}', target='output')
 display(f'Students in Band: {band - dance}', target='output')
 display(f'Students in Dance: {dance - band}', target='output')
-display(f'Students with only one clubs{band ^ dance}', target='output')
+
+display(f'Students with only one clubs: {band ^ dance}', target='output')
